@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+  }
+
+
+  .hero-image {
+    background-image: url('./assets/logo2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25D366;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .whatsapp-button:hover {
+    background-color: #128C7E;
+  }
+  
+  .icones-contato {
+    position: relative;
+    display: block;
+    border: 0 solid #000;
+    text-align: center
+  }
+
+  .icones-contato li a i {
+      color: #ffffff
+  }
+
+  .icones-contato ul li {
+      display: inline-block;
+      min-width: 35px;
+      min-height: 5px
+  }
